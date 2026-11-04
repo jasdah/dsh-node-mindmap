@@ -1,0 +1,5 @@
+# dsh-node-mindmap bundle patch: one empty host row. The browser half is
+# discovered from this row's package.json (dsh.client + exports["./client"]).
+- insert:
+    - id: dsh-node-mindmap
+      name: dsh-node-mindmap
