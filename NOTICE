@@ -1,0 +1,15 @@
+dsh-node-mindmap
+================
+
+Third-party components bundled into lib/client.js:
+
+- mind-elixir 5.15.1
+  Copyright (c) 2019 DjZhou
+  License: MIT (full text in vendor/LICENSE)
+  Source: https://github.com/ssshooter/mind-elixir-core
+  Bundled as the IIFE build (vendor/MindElixir.iife.js) plus its stylesheet
+  (vendor/MindElixir.css).
+
+The Markdown tree parser in src/core.js is an original implementation for this
+plugin; it borrows the problem framing (headings/lists -> tree) from
+tuogusa/dsh-mindmap but not its source.
